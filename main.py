@@ -11,7 +11,9 @@ import json
 import re
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyCCfwVOWpf-2McwrPhnNhxqL5Rv6NN9-sA"
+# SECURITY UPGRADE: Try to fetch key from the Computer's Environment Variables first
+API_KEY = os.environ.get("GEMINI_API_KEY")
+
 CAMERA_INDEX = 1 # Try 0 or 1
 SOUND_FILE = "processing.wav" 
 
