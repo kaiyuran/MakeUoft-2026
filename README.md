@@ -1,7 +1,7 @@
-# Sentinel Sack | MakeUofT 2026 🎒
+# Sentinel Sack | MakeUofT 2026 
 Sentinel Sack is an intelligent, hardware-integrated backpack designed for the Survival category at MakeUofT 2026. It tracks your gear in real-time, ensuring you never leave an essential item behind.
 
-## How It Works ⚙️
+## How It Works 
 The Sentinel Sack operates through a seamless loop between hardware sensing and AI processing:
 
 Detection & Vision: When an object is placed near the bag, the Logitech Webcam captures an image.
@@ -14,7 +14,7 @@ Motion Intelligence: The Grove Accelerometer monitors the bag's physical state. 
 
 Voice Query: Users can interact with the bag via a microphone to ask "What's in the bag?", receiving an instant status update.
 
-## Tech Stack 🛠️
+## Tech Stack 
 Software
 Gemini API: High-level object recognition and data parsing.
 
