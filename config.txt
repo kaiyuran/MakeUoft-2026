@@ -1,0 +1,13 @@
+# Force HDMI output even if no monitor is detected
+hdmi_force_hotplug=1
+
+# Set the resolution to 800x480 (Common for this model)
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 6 0 0 0
+
+# If your screen is the 1024x600 version, use this line instead:
+# hdmi_cvt 1024 600 60 6 0 0 0
+
+# Enable the HDMI drive
+hdmi_drive=1
