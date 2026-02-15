@@ -31,5 +31,5 @@ Interface: LCD Screens & LED Indicators.
 
 Connection: Arduino Grove Shield for modular hardware integration.
 
-## Project Context 🏆
+## Project Context 
 Created in 24 hours for MakeUofT 2026. The Sentinel Sack solves the "survival" challenge by ensuring total tool-readiness and spatial awareness through automated inventory management.
