@@ -1,14 +1,14 @@
-# Sentinel Bag | MakeUofT 2026 
-Sentinel Bag is an intelligent, hardware-integrated backpack designed for the Survival category at MakeUofT 2026. It tracks your gear in real-time, ensuring you never leave an essential item behind.
+# Buddy Bag | MakeUofT 2026 
+Buddy Bag is an intelligent, hardware-integrated backpack designed for the Survival category at MakeUofT 2026. It tracks your gear in real-time, ensuring you never leave an essential item behind.
 
 ## How It Works 
-The Sentinel Bag operates through a seamless loop between hardware sensing and AI processing:
+The Buddy Bag operates through a seamless loop between hardware sensing and AI processing:
 
 Detection & Vision: When an object is placed near the bag, the Logitech Webcam captures an image.
 
 AI Identification: This image is sent to a Python script that interfaces with the Gemini API. The AI identifies the object and categorizes its storage location (Front, Middle, Back, or Right).
 
-Real-Time Inventory: The Arduino Uno R4 WiFi receives this data and updates the LCD Screens, providing a live readout of exactly what is inside and where it is located.
+Real-Time Inventory: The Arduino Uno R4 WiFi receives this data wirelessly and updates the LCD Screens, providing a live readout of exactly what is inside and where it is located.
 
 Motion Intelligence: The Grove Accelerometer monitors the bag's physical state. If the bag moves (indicating the user is leaving) and the system detects a missing "start-of-trip" item, the LEDs and display trigger a survival alert.
 
