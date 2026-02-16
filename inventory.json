@@ -1,0 +1,12 @@
+{
+    "Medkit": {
+        "amount": 2,
+        "location": "Front"
+    },
+    "Battery": {
+        "amount": 5,
+        "location": "Middle"
+    }
+}
+
+[["Medkit", 2, "Front"], ["Battery", 5, "Middle"]]
