@@ -1,8 +1,8 @@
-# Buddy Bag | MakeUofT 2026 
-Buddy Bag is an intelligent, hardware-integrated backpack designed for the Survival category at MakeUofT 2026. It tracks your gear in real-time, ensuring you never leave an essential item behind.
+# TrackPack | MakeUofT 2026 
+TrackPack is an intelligent, hardware-integrated backpack designed for the Survival category at MakeUofT 2026. It tracks your gear in real-time, ensuring you never leave an essential item behind.
 
 ## How It Works 
-The Buddy Bag operates through a seamless loop between hardware sensing and AI processing:
+The TrackPack operates through a seamless loop between hardware sensing and AI processing:
 
 Detection & Vision: When an object is placed near the bag, the Logitech Webcam captures an image.
 
@@ -32,4 +32,4 @@ Interface: LCD Screens & LED Indicators.
 Connection: Arduino Grove Shield for modular hardware integration.
 
 ## Project Context 
-Created in 24 hours for MakeUofT 2026. The Buddy Bag solves the "survival" challenge by ensuring total tool-readiness and spatial awareness through automated inventory management.
+Created in 24 hours for MakeUofT 2026. The TrackPack solves the "survival" challenge by ensuring total tool-readiness and spatial awareness through automated inventory management.
